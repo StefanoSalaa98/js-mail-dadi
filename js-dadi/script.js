@@ -15,5 +15,5 @@ else if(PcNumber < UserNumber){
     console.log("Ha vinto l'utente");
 }
 else{
-    console.log("Pc ed utente hanno ottenuto lo stesso punetggio");
+    console.log("Pc ed utente hanno ottenuto lo stesso punteggio");
 }

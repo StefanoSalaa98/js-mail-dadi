@@ -21,10 +21,11 @@ console.log(elencoMail);
 const mail = prompt("Inserisci la tua mail");
 
 let isMailPresent = false;
-for (let i=0; i<elencoMail.length; i++){
+for (let i=0; i<elencoMail.length && isMailPresent === false; i++){
     if(elencoMail[i] === mail){
         isMailPresent = true;
     }
+    console.log(i);
 }
 if (isMailPresent){
     console.log("Benvenuto, puoi accedere alla festa!");
